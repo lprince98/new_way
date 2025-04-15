@@ -1,0 +1,45 @@
+side = 100
+angle = 90
+
+import turtle
+t = turtle.Turtle()
+t.shape('turtle')
+
+t.forward(side)
+t.left(angle)
+t.forward(side)
+t.left(angle)
+t.forward(side)
+t.left(angle)
+t.forward(side)
+t.left(angle)
+
+t.up()
+t.goto(side,side)
+t.down()
+t.forward(side)
+t.right(angle)
+t.forward(side)
+t.right(angle)
+t.forward(side)
+t.right(angle)
+
+t.up()
+t.goto(side,side)
+t.down()
+t.forward(side)
+t.right(angle)
+t.forward(side)
+t.right(angle)
+t.forward(side)
+t.left(angle)
+
+t.up()
+t.goto(side,side)
+t.down()
+t.back(side)
+t.left(angle)
+t.forward(side)
+t.left(angle)
+t.back(side)
+t.right(angle)
